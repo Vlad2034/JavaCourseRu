@@ -1,11 +1,11 @@
 public class VoidAndReturn {
     public static void main(String[] args) {
 
-        PersonR person1 = new PersonR();
+        PersonVAR person1 = new PersonVAR();
         person1.name = "Vlad";
         person1.age = 50;
 
-        PersonR person2 = new PersonR();
+        PersonVAR person2 = new PersonVAR();
         person2.name = "Vova";
         person2.age = 21;
 
@@ -19,7 +19,7 @@ public class VoidAndReturn {
     }
 }
 
-class PersonR{
+class PersonVAR {
     String name;
     int age;
 
