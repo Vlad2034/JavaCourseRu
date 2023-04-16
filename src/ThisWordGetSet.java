@@ -1,4 +1,4 @@
-public class thisWordGetSet {
+public class ThisWordGetSet {
     public static void main(String[] args) {
         Human human = new Human();
         human.setAge(18);

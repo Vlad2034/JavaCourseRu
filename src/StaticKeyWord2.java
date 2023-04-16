@@ -6,7 +6,10 @@ public class StaticKeyWord2 {
         // к которым мы можем получить доступ не создавая объекта
         System.out.println(Math.pow(2,4));
         System.out.println(Math.PI);
-        //
+
+        // с static мы используют только одну и туже область памяти.ячейку
+        // в противном случае одно и тоже значение будет копироваться для каждого объекта
+        // а это растрата памяти
 
         HumanSt1 h111 = new HumanSt1("Bob", 40);
         HumanSt1 h222 = new HumanSt1("Tom", 30);
